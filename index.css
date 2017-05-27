@@ -1,0 +1,24 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend,img{margin:0;padding:0;}
+h1, h2, h3, h4, h5, h6{font-weight:normal;}
+fieldset,img{border:none;vertical-align:middle;}
+address,caption,cite,code,dfn,th,var{font-style:normal;font-weight:normal;}
+ul,ol{list-style:none;}
+select,input{vertical-align:middle;}
+select,input,textarea{font-size:12px;margin:0;outline:none;resize:none;font-family:Verdana;}
+table{ border-collapse: collapse; font-family: Verdana, Geneva, sans-serif; }
+body{color:#000;padding:0;font:12px/20px Verdana;}
+em{font-style: normal;}
+a{ text-decoration: none; }
+.m-router{ position: relative; width: 1000px; font-size: 14px; height: auto; clear: both; margin:0 auto; overflow: hidden; }
+.m-r-left{ position: relative; float: left; width: 200px; height: auto; min-height: 100px; border:solid 1px blue; }
+.m-r-right{ position: relative; float: right; width: 780px; height: auto;; min-height: 100px; border:solid 1px blue; }
+.active{ color: red; }
+.m-r-left ul{ padding: 10px }
+
+
+
+
+
+
+
+
