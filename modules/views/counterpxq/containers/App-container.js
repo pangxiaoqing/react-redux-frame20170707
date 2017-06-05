@@ -4,9 +4,10 @@ import Counter from '../components/Counter-component'
 import * as CounterActions from '../actions/counter-action'
 
 //将state.counter绑定到props的counter
-function mapStateToProps(state) {console.log(state)
+function mapStateToProps(state) {console.log(123334455656,state)
+  const { source,countera,sourcevalue} = state
   return {
-    counter: state.countera
+    counter:countera
   }
 }
 
@@ -54,3 +55,35 @@ function mapDispatchToProps(dispatch) {
 // Action Creator
 const increaseAction = { type: 'increase' }*/
 
+
+
+
+/*const Counter = function({ value }) { (
+  <h1>{value}</h1>
+  <button onClick={onIncrement}>+</button>
+  <button onClick={onDecrement}>-</button>
+)};
+
+const reducer = function(state = 0, action){
+  switch (action.type) {
+    case 'INCREMENT': return state + 1;
+    case 'DECREMENT': return state - 1;
+    default: return state;
+  }
+};
+
+const store = createStore(reducer);
+
+const render = function(){
+  ReactDOM.render(
+    <Counter
+      value={store.getState()}
+      onIncrement={() => store.dispatch({type: 'INCREMENT'})}
+      onDecrement={() => store.dispatch({type: 'DECREMENT'})}
+    />,
+    document.getElementById('root')
+  );
+};
+
+render();
+store.subscribe(render);*/

@@ -14,6 +14,9 @@ export default React.createClass({
 						<li><NavLink to='/loginp'>登录p</NavLink></li>
 						<li><NavLink to='/logincomponentp'>登录组件p</NavLink></li>
 						<li><NavLink to='/CouterIndexpxq'>react-redux的一个加减算数的案例pxq</NavLink></li>
+						<li><NavLink to='/Sourcepxq'>两个按钮加载两个不同的url地址pxq</NavLink></li>
+						<li><NavLink to='/SourceReduxpxq'>Redux三个按钮加载两个不同的url地址pxq</NavLink></li>
+						<li><NavLink to='/SourceReduxpxq2'>Redux两个按钮加载两个不同的url地址pxq</NavLink></li>
 					</ul>
 				</div>
 				<div className='m-r-right'>

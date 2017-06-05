@@ -12,6 +12,9 @@ import SubAssembly from './modules/views/assembly/SubAssembly'
 import Loginp from './modules/Loginp'
 import Logincomponentp from './modules/views/Logincomponentp'
 import CouterIndexpxq from './modules/views/CouterIndexpxq'
+import Sourcepxq from './modules/views/Sourcepxq'
+import SourceReduxpxq from './modules/views/SourceReduxpxq'
+import SourceReduxpxq2 from './modules/views/SourceReduxpxq2'
 
 render ((
 	<Router history={browserHistory} >
@@ -28,6 +31,9 @@ render ((
 			<Route path='/loginp' component={Loginp} />
 			<Route path='/logincomponentp' component={Logincomponentp} />
 			<Route path='/CouterIndexpxq' component={CouterIndexpxq} />
+			<Route path='/Sourcepxq' component={Sourcepxq} />
+			<Route path='/SourceReduxpxq' component={SourceReduxpxq} />
+			<Route path='/SourceReduxpxq2' component={SourceReduxpxq2} />
 		</Route>
 	</Router>
 ),document.getElementById('app'))

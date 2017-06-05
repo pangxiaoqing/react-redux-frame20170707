@@ -2,6 +2,7 @@ export const INCREMENT_COUNTER = 'INCREMENT_COUNTER'
 export const DECREMENT_COUNTER = 'DECREMENT_COUNTER'
 //导出加一的方法
 export function increment() {
+  console.log(11);
   return {
     type: INCREMENT_COUNTER
   } 
@@ -16,19 +17,20 @@ export function decrement() {
 export function incrementIfOdd() {
   return function(dispatch,getState){
     //获取state对象中的counter属性值
-    const { counter } = getState()
-
+    const {countera}  = getState()
+    // console.log(counter);
     //偶数则返回
-    if (counter % 2 === 0) { 
+    if (countera % 2 === 0) { 
       return
   }
     //没有返回就执行加一
+    // this.increment();
     dispatch(increment())
   }
 }
 //导出一个方法,包含一个默认参数delay,返回一个方法,一秒后加一
 export function incrementAsync(delay = 1000) {
-  return function dispatch(){
+  return function(dispatch){
     setTimeout(
         function(){
           dispatch(increment())
